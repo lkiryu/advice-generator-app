@@ -3,6 +3,8 @@ import dividerDesktop from '../../images/pattern-divider-desktop.svg'
 import dividerMobile from '../../images/pattern-divider-mobile.svg'
 import dice from '../../images/icon-dice.svg'
 
+import './adviceGenerator.css'
+
 const AdviceGenerator = () => {
     return (
         <div className="advice">
@@ -12,7 +14,7 @@ const AdviceGenerator = () => {
                 <source srcSet={dividerMobile} media="(max-width:800px)"></source>
                 <img src={dividerDesktop} alt="pattern divider"></img>
             </picture>
-            <button>
+            <button className="button">
                 <img src={dice} alt="Dice icon"></img>
             </button>
         </div>
