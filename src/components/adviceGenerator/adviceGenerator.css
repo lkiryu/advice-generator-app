@@ -5,7 +5,6 @@
     background-color: hsl(217, 19%, 24%);
     border-radius: 10px;
     width: 500px;
-    padding: 20px;
 }
 
 .advice .advice-id{
@@ -35,4 +34,14 @@
 .advice .button:hover{
     cursor: pointer;
     box-shadow: 0 0 5px 1px hsl(150, 100%, 66%);
+}
+
+@media(max-width:500px){
+    .advice{
+        width: 310px;
+    }
+
+    .advice .button{
+        transform: translateY(50%);
+    }
 }
