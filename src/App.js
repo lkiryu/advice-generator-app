@@ -1,9 +1,9 @@
-import './App.css';
+import AdviceGenerator from './components/adviceGenerator/adviceGenerator';
 
 function App() {
   return (
-    <main className='container'>
-      
+    <main className="Container">
+      <AdviceGenerator/>
     </main>
   );
 }
